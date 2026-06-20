@@ -1,0 +1,9 @@
+{
+  "name": "mpst",
+  "loader": "mpst",
+  "data_dir": "data",
+  "file_name": "mpst_8_labels_final.csv",
+  "labels": false,
+  "min_doc_len": 5,
+  "cache_root": "data"
+}

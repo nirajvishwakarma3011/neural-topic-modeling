@@ -1,0 +1,17 @@
+{
+  "name": "fastopic",
+  "params": {
+    "k": 10,
+    "epochs": 200,
+    "learning_rate": 0.01,
+    "DT_alpha": 3,
+    "TW_alpha": 2,
+    "vocab_size": 1249,
+    "normalize_embeddings": false,
+    "doc_embed_model": "all-MiniLM-L6-v2",
+    "low_memory": false,
+    "low_memory_batch_size": 2000,
+    "verbose": false,
+    "random_state": 42
+  }
+}

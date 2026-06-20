@@ -1,0 +1,6 @@
+{
+  "name": "lda",
+  "k": 10,
+  "passes": 20,
+  "iterations": 201
+}

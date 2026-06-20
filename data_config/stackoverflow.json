@@ -1,0 +1,11 @@
+{
+    "name": "stackoverflow",
+    "loader": "stackoverflow",
+    "labels": true,
+    "min_doc_len": 1,
+    "data_dir": "data",
+    "file_name": "selected_core_noise.csv",
+    "cache_root": "data",
+    "overwrite_raw": true,
+    "overwrite_processed": true
+}

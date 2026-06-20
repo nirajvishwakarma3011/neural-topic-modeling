@@ -1,0 +1,24 @@
+{
+    "name": "wlr_clean_ntm",
+    "params": {
+        "K": 10,
+        "H": 384,
+        "tau_multiplier": 0.05,
+        "tau_beta": 5.0,
+        "num_epochs": 200,
+        "batch_size": 256,
+        "lr": 0.005,
+        "weight_decay": 1e-5,
+        "lambda_gate_div": 1.0,
+        "lambda_topic_div": 0.1,
+        "lambda_routing_div": 0.5,
+        "center_word_embeddings": true,
+        "freeze_word_embeddings": true,
+        "init_gate_from_kmeans": true,
+        "max_vocab": 2000,
+        "min_df": 2,
+        "word_emb_cache": "cache/googlenews_binary_vocab_embeddings_minilm.npy",
+        "embedding_model": "all-MiniLM-L6-v2",
+        "random_state": 42
+    }
+}

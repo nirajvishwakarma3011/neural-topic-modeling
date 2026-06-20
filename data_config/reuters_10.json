@@ -1,0 +1,9 @@
+{
+  "name": "reuters_10",
+  "loader": "reuters_10",
+  "data_dir": "data",
+  "file_name": "reuters_10.csv",
+  "labels": false,
+  "min_doc_len": 5,
+  "cache_root": "data"
+}

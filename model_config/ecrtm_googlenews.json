@@ -1,0 +1,21 @@
+{
+    "name": "ecrtm",
+    "params": {
+        "k": 10,
+        "epochs": 120,
+        "batch_size": 200,
+        "learning_rate": 0.002,
+        "hidden_dims": [100, 100],
+        "embed_dim": 200,
+        "dropout": 0.0,
+        "max_vocab": 1500,
+        "normalize_input": true,
+        "ecr_lambda": 500,
+        "sinkhorn_alpha": 50,
+        "sinkhorn_iters": 100,
+        "cluster_size_constraint": null,
+        "ecr_start_epoch": 100,
+        "kl_anneal_epochs": 100,
+        "random_state": 42
+    }
+}

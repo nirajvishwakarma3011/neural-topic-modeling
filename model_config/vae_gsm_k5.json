@@ -1,0 +1,20 @@
+{
+    "name": "vae_gsm",
+    "params": {
+        "k": 5,
+        "epochs": 500,
+        "batch_size": 200,
+        "learning_rate": 0.001,
+        "hidden_dims": [256],
+        "topic_dim": 256,
+        "dropout": 0.2,
+        "max_vocab": 2000,
+        "normalize_input": false,
+        "diversity_lambda": 0.5,
+        "kl_anneal_epochs": 150,
+        "kl_anneal_warmup": 75,
+        "kl_min_weight": 0.05,
+        "div_anneal_epoch": 50,
+        "random_state": 42
+    }
+}

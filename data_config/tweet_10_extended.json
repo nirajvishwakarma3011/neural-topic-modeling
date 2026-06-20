@@ -1,0 +1,10 @@
+{
+  "name": "tweet_10_extended",
+  "loader": "tweet_csv",
+  "data_dir": "data",
+  "file_name": "tweet_10_labels_extended.csv",
+  "labels": true,
+  "min_doc_len": 1,
+  "cache_root": "data",
+  "extended_clusters": [20, 79]
+}

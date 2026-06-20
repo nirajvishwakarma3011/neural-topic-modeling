@@ -1,0 +1,9 @@
+{
+  "name": "googlenewst",
+  "loader": "googlenewst",
+  "data_dir": "data",
+  "file_name": "googlenewst_10_extended_humanlabel.csv",
+  "labels": true,
+  "min_doc_len": 1,
+  "cache_root": "data"
+}

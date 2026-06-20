@@ -1,0 +1,26 @@
+{
+    "name": "glocom",
+    "params": {
+        "k": 11,
+        "epochs": 250,
+        "batch_size": 200,
+        "learning_rate": 0.001,
+        "hidden_dims": [256],
+        "embed_dim": 200,
+        "dropout": 0.2,
+        "max_vocab": 500,
+        "normalize_input": false,
+        "num_clusters": 11,
+        "aug_coef": 0.5,
+        "prior_var": 1.0,
+        "weight_loss_ECR": 30.0,
+        "sinkhorn_alpha": 20.0,
+        "sinkhorn_iters": 30,
+        "cluster_size_constraint": null,
+        "ecr_start_epoch": 500,
+        "kl_anneal_epochs": 500,
+        "doc_embed_model": "all-MiniLM-L6-v2",
+        "assign_clusters_at_inference": true,
+        "random_state": 42
+    }
+}

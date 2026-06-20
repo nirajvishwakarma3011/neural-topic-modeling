@@ -1,0 +1,28 @@
+# Core
+numpy
+scipy
+pandas
+scikit-learn
+torch>=2.0
+
+# Topic-model baselines
+gensim                 # LDA
+fastopic               # FASTopic
+topmost                # preprocessing used by FASTopic / ECRTM
+
+# Embeddings & LLM augmentation
+sentence-transformers  # SBERT encoders (all-MiniLM-L6-v2, USE)
+transformers           # Mistral-7B-Instruct (Thread 1 extension)
+peft                   # PVTM prefix tuning
+
+# Clustering / dim-reduction (augmentation + analysis)
+hdbscan
+umap-learn
+
+# Plotting & analysis UI
+matplotlib
+seaborn
+streamlit
+
+# Utilities
+tqdm

@@ -1,0 +1,29 @@
+{
+    "name": "ecrtm2",
+    "params": {
+        "k": 10,
+        "vocab_size": 1500,
+        "device": "cuda",
+        "verbose": true,
+
+        "epochs": 250,
+        "learning_rate": 0.002,
+        "batch_size": 200,
+        "log_interval": 10,
+
+        "en_units": 200,
+        "dropout": 0.0,
+        "embed_size": 200,
+        "beta_temp": 0.2,
+        "weight_loss_ECR": 100.0,
+        "sinkhorn_alpha": 20.0,
+        "sinkhorn_max_iter": 1000,
+
+        "kl_anneal_epochs": 0,
+        "ecr_start_epoch": 0,
+        "balance_loss_coeff": 2.0,
+
+        "topic_vec_dim": 256,
+        "random_state": 42
+    }
+}

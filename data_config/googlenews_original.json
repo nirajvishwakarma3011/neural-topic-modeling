@@ -1,0 +1,10 @@
+{
+  "name": "googlenews_original",
+  "loader": "googlenewst",
+  "data_dir": "data",
+  "file_name": "googlenewst_10_binary_labels.csv",
+  "labels": true,
+  "min_doc_len": 1,
+  "cache_root": "data",
+  "extended_clusters": []
+}

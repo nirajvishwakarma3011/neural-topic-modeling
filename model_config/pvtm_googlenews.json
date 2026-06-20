@@ -1,0 +1,19 @@
+{
+    "name": "pvtm",
+    "params": {
+        "k": 10,
+        "epochs": 100,
+        "batch_size": 64,
+        "learning_rate": 0.002,
+        "topic_dim": 256,
+        "dropout": 0.2,
+        "max_vocab": 1500,
+        "extended_texts_path": "/raid/home/nirajv/small_text/LLM/extended/googlenewst_10_pvtm.jsonl",
+        "num_virtual_tokens": 20,
+        "sbert_model_name": "sentence-transformers/paraphrase-distilroberta-base-v2",
+        "kl_anneal_epochs": 50,
+        "kl_anneal_warmup": 10,
+        "use_mistral_stopwords": false,
+        "random_state": 42
+    }
+}

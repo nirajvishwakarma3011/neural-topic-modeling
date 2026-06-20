@@ -1,0 +1,9 @@
+{
+  "name": "tweet_10",
+  "loader": "tweet_csv",
+  "data_dir": "data",
+  "file_name": "tweet_10_labels.csv",
+  "labels": true,
+  "min_doc_len": 1,
+  "cache_root": "data"
+}
